@@ -9,6 +9,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Date;
+import java.util.List;
 
 public class Emp {
     public static void main(String[] args) throws Exception {
@@ -19,22 +20,38 @@ public class Emp {
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         // 3. 创建SqlSession
         SqlSession sqlSession = sqlSessionFactory.openSession();
-        Emp e =  sqlSession.selectOne("lll.po.Emp.getEmp");
-        System.out.println(e.getMgrid());
+        //插入
+//        Emp e=new Emp();
+//        int i = sqlSession.insert("lll.po.Emp.addEmp", e);
+        List<Emp> list = sqlSession.selectList("lll.po.Emp.getEmpDept");
+        sqlSession.commit();
+        System.out.println(list);
+
+        //查询
+//        Emp e =  sqlSession.selectOne("lll.po.Emp.getEmp");
+//        System.out.println(e.getMgrid());
         sqlSession.close();
     }
 
 
 
     private int empid;
-    private String ename;
+    private String ename="zzm";
     private Date hiredate;
-    private String logid;
+    private String logid="14";
     private String logpwd;
     private  int mgrid;
+    private Dept dept;
+    private int deptiid;
 
-    public Emp() {
+    public int getDeptid() {
+        return deptiid;
     }
+
+    public void setDeptid(int deptid) {
+        this.deptiid = deptid;
+    }
+
 
     @Override
     public String toString() {
@@ -45,8 +62,21 @@ public class Emp {
                 ", logid='" + logid + '\'' +
                 ", logpwd='" + logpwd + '\'' +
                 ", mgrid=" + mgrid +
+                ", dept=" + dept +
                 '}';
     }
+
+    public Dept getDept() {
+        return dept;
+    }
+
+    public void setDept(Dept dept) {
+        this.dept = dept;
+    }
+
+    public Emp() {
+    }
+
 
     public int getEmpid() {
         return empid;

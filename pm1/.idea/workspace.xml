@@ -53,7 +53,20 @@
       <recent name="C:\Users\s\Documents\GitHub\PM\pm1\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Dept">
+    <configuration name="Dept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lll.po.Dept" />
+      <module name="pm1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lll.po.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Emp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lll.po.Emp" />
       <module name="pm1" />
@@ -69,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dept" />
         <item itemvalue="Application.Emp" />
       </list>
     </recent_temporary>
@@ -98,7 +112,9 @@
       <workItem from="1599706982220" duration="234000" />
       <workItem from="1599707237079" duration="813000" />
       <workItem from="1599708094846" duration="3139000" />
-      <workItem from="1599717782341" duration="3502000" />
+      <workItem from="1599717782341" duration="4189000" />
+      <workItem from="1599737230392" duration="2068000" />
+      <workItem from="1599785110207" duration="14370000" />
     </task>
     <servers />
   </component>
@@ -106,37 +122,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1599709331435">
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1599809959737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599709331435" />
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599809959737" />
     <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1599707914734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599707914734" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599721982283">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599822984303">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599721982283" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599721982283">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599822984303" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599822984303">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599721982283" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599721982283">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599822984303" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599822984303">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599721982283" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599721982283">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599822984303" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599822984303">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599721982283" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599822984303" />
     <state x="405" y="32" width="992" height="707" key="SettingsEditor" timestamp="1599718222110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="405" y="32" width="992" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599718222110" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599708817544">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599805024660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599708817544" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599805024660" />
   </component>
 </project>

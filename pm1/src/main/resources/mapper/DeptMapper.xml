@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--  EmpMapper.xml   -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="lll.po.Dept">
+    <resultMap id="empDept" type="lll.po.Dept">
+    <!--        默认时property、column相同-->
+        <id property="deptid" column="deptidd"></id>
+        <collection property="list" column="deptidd" ofType="lll.po.Emp"  >
+    <!--        id中的column为dept中的deptid，用于连接两个表,property是Emp中-->
+            <id column="depttid" property="deptiid"></id>
+            <result column="ename" property="ename"></result>
+        </collection>
+    </resultMap>
+    <select id="getEmpByDept" resultMap="empDept">
+        select e.*,d.dname from emp e inner join dept d on e.deptid=d.deptidd where d.dname='找找'
+    </select>
+
+
+</mapper>
